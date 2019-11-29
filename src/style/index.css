@@ -1,0 +1,130 @@
+/*搜索筐样式*/
+    .container {
+        padding: 15px 20px;
+    }
+
+    .content {
+        width: 100%;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .p_img {
+        width: 20px;
+        height: 30px;
+    }
+
+    .seek {
+        display:inline-block;
+        outline: none;
+        padding: 0  10vm;
+        height: 45px;
+        border: 1px solid #F8F6F9;
+        border-radius: 10px;
+        margin: 0 auto;
+        font-size: 15px;
+        padding-left:20px;
+    }
+   /*轮播样式*/
+    .swiper_content {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    .swiper_img>img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    #d1 {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+    }
+
+    .active {
+        background: whitesmoke;
+    }
+
+    .swiper_last {
+        display: flex;
+        margin-left: 43%;
+        margin-top: -20px;
+    }
+
+    .swiper_last>li {
+        padding: 3px;
+    }
+    /*导航样式ʽ*/
+    .nav_bar{
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        margin:25px 0 0 0;
+        font-size:12px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_bar>li>img{
+        width: 40px;
+        height: 40px;
+    }
+    /*热门活动推荐*/
+
+    .nav_conten{
+        width: 100%;
+        height: 130px;
+        margin: 0 auto;
+        font-size:5px;
+        display: flex;
+        justify-content: space-between;
+        box-sizing:content-box;
+    }
+    .nav_conten>li{
+        width: 100%;
+        margin-right:5px;
+    }
+    .nav_conten>li>img{
+        width: 100%;
+        height: 60%;
+        padding:0 3px;
+        border-radius:8px;
+    }
+    .nav_navbbar{
+        width:90%;
+        margin:20px 0 0 0;
+        font-size:20px;
+        color: #37393B;
+        text-align: left;
+    }   
+    .nav_font{
+        font-weight:bolder;
+        font-size:13px;
+        color:#37393B;
+    }
+    /*每日新食谱*/
+    .nav_cookbook{
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-around;
+    }
+    .nav_cookbook>li{
+        width: 33%;
+        height:60%;
+        margin:0 0 10px 0;
+    }
+    .nav_cookbook>li>img{
+        width: 100%;
+        height:78px;
+        padding:0 3px;
+        border-radius:8px;
+    }
+   
